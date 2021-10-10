@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Holiday Calender</title>
+</head>
+
+<body id="page_bo">
+    <div id="div_title">
+        <h1 class="mx-auto">View Holiday Calender & Occasions of required Country</h1>
+    </div>
+    <div class="mx-auto">
+        <input type="month" id="occDate" class="btn btn-outline-light" placeholder="YYYY-MM">
+        <button class="btn btn-outline-light" onclick="getChurchOc()">Get Calender</button>
+    </div>
+    <br>
+    <div id="calender_div"></div>
+    <div id="cal_data_disp"></div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

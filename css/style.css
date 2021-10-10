@@ -1,0 +1,63 @@
+#div_title {
+    color: #f1f1e1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("https://images.unsplash.com/photo-1438032005730-c779502df39b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2h1cmNofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border: 0.1vw solid whitesmoke;
+    backdrop-filter: blur(10px);
+}
+
+#cal_data_disp {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 0.5%;
+    color: white;
+}
+
+#dateDiv {
+    border: 0.1vw solid rgba(247, 238, 238, 0.8);
+    padding: 0.1vw;
+    font-size: 0.9vw;
+    height: 12vw;
+    width: 13.5vw;
+    font-weight: bold;
+    backdrop-filter: blur(20px);
+    color: black;
+}
+
+#occDate {
+    width: 30%;
+    font-size: x-large;
+}
+
+#date {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5vw;
+    font-size: 100%;
+}
+
+#occDiv {
+    border: 0.1vw solid rgba(65, 4, 4, 0.8);
+}
+
+button {
+    height: 4vw;
+    width: 20%;
+}
+
+.mx-auto {
+    width: 70vw;
+}
+
+h2 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 14vw;
+}

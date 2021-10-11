@@ -14,14 +14,35 @@
 <body id="page_bo">
     <div id="div_title">
         <h1 class="mx-auto">View Holiday Calender & Occasions of required Country</h1>
+        <p class="mx-auto"><b>Note:</b> Free subscriptions are only allowed to access past year(2020) historical data, hence by default year <b>2020</b> is set </p>
     </div>
+    <br>
     <div class="mx-auto">
-        <input type="month" id="occDate" class="btn btn-outline-light" placeholder="YYYY-MM">
+        <select name="country" id="country" class="btn btn-outline-light">
+            <option value="" selected disabled hidden>
+                Select a Country
+            </option>
+          </select>
+        <select name="month" id="month" class="btn btn-outline-light">
+            <option value="" selected disabled hidden>Select a Month</option>
+            <option value="01">January</option>
+            <option value="02">February</option>
+            <option value="03">March</option>
+            <option value="04">April</option>
+            <option value="05">May</option>
+            <option value="06">June</option>
+            <option value="07">July</option>
+            <option value="08">August</option>
+            <option value="09">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+            </select>
         <button class="btn btn-outline-light" onclick="getChurchOc()">Get Calender</button>
     </div>
     <br>
-    <div id="calender_div"></div>
-    <div id="cal_data_disp"></div>
+    <br>
+    <div id="cal_data_disp" class="mx-auto"></div>
     <script src="./js/script.js"></script>
 </body>
 

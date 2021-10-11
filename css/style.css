@@ -1,5 +1,5 @@
 #div_title {
-    color: #f1f1e1;
+    color: rgb(235, 216, 191);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -11,21 +11,25 @@ body {
     color: white;
     border: 0.1vw solid whitesmoke;
     backdrop-filter: blur(10px);
+    padding-top: 2vw;
+}
+
+p {
+    color: burlywood;
 }
 
 #cal_data_disp {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    padding: 0.5%;
+    grid-template-columns: auto auto auto auto;
     color: white;
 }
 
 #dateDiv {
-    border: 0.1vw solid rgba(247, 238, 238, 0.8);
+    /*   border: 0.1vw solid rgba(247, 238, 238, 0.8);*/
     padding: 0.1vw;
-    font-size: 0.9vw;
-    height: 12vw;
-    width: 13.5vw;
+    font-size: 1.2vw;
+    height: 18vw;
+    width: 18vw;
     font-weight: bold;
     backdrop-filter: blur(20px);
     color: black;
@@ -36,10 +40,17 @@ body {
     font-size: x-large;
 }
 
+#country,
+#month {
+    width: 30%;
+    height: 3.8vw;
+    background-color: rgb(77, 71, 65);
+    font-size: x-large;
+}
+
 #date {
-    background-color: black;
-    color: whitesmoke;
-    border-radius: 5vw;
+    background-color: rgb(235, 187, 124);
+    color: black;
     font-size: 100%;
 }
 
@@ -48,12 +59,12 @@ body {
 }
 
 button {
-    height: 4vw;
+    height: 3.8vw;
     width: 20%;
 }
 
 .mx-auto {
-    width: 70vw;
+    width: 80vw;
 }
 
 h2 {

@@ -5,7 +5,7 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("https://images.unsplash.com/photo-1438032005730-c779502df39b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2h1cmNofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-image: url("https://p0.pikist.com/photos/89/744/background-black-background-blur-blurred-background-bokeh-colors-dark-eiffel-tower-glisten-illuminated.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -25,7 +25,6 @@ p {
 }
 
 #dateDiv {
-    /*   border: 0.1vw solid rgba(247, 238, 238, 0.8);*/
     padding: 0.1vw;
     font-size: 1.2vw;
     height: 18vw;
